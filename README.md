@@ -9,7 +9,7 @@ git clone usuário@servidor:/caminho/para/o/repositório
 git add <arquivo>
 git add *
 git commit -m "comentários das alterações"
-git push origin master
+git push origin main
 git remote add origin <servidor>
 git pull
 git tag 1.0.0 1b2e1d63ff
