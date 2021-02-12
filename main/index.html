@@ -11,68 +11,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Título -->
     <title>Principal</title>
 </head>
 
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+<body>
+    <!-- Logo/Navbar -->
+    <div class="topnav">
+        <div class="logo">
+            <a class="unif"> <img src="imagens/unifor-logo.png" width="50%"> </a>
+        </div>
+        <a class="active" href="index.html">Início</a>
+        <a href="formulario.html">Formulário</a>
+        <a href="informacao.html">Informações</a>
+        <a href="sobre.html">Sobre</a>
+        <form>
+            <input type="search" name="search" placeholder="Pesquisar..">
+        </form>
+    </div>
 
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
-    }
-    input[type=search] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 20px;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=search]:focus {
-  width: 10%;
-}
-</style>
-</head>
-
-<!-- Logo/Navbar -->
-<div class="topnav">
-    <a class="active" href="index.html">Início</a>
-    <a href="formulario.html">Formulário</a>
-    <a href="informacao.html">Informações</a>
-    <a href="sobre.html">Sobre</a>
-    <form>
-        <input type="search" name="search" placeholder="Pesquisar..">
-      </form>
-</div>
-
+</body>
 
 </html>
