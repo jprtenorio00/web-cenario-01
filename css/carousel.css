@@ -24,7 +24,7 @@ body {
 
 /* Declaramos alturas, devido ao posicionamento do elemento img */
 .carousel-item {
-  height: 24rem;
+  height: 32rem;
   background-color: rgb(255, 255, 255);
 }
 .carousel-item > img {
